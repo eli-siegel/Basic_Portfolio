@@ -2,7 +2,12 @@ header {
 	width: 100%;
 	height: auto;
 	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
+    background-color: #ffffff;
+}
+
+body {
+    background: lightgray;
+    margin: 0;
 }
 
 .title {
@@ -11,6 +16,20 @@ header {
 
 #navigator {
     float: right;
+    padding-right: 180px;
+    padding-top: 20px;
+}
+
+#navigator1 {
+    float: right;
+    padding-right: 180px;
+    padding-top: 20px;
+}
+
+#navigator2 {
+    float: right;
+    padding-right: 180px;
+    padding-top: 20px;
 }
 
 a {
@@ -30,15 +49,35 @@ nav ul li {
     color: #777777;
 }
 
+input[type=text] {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+
+textarea {
+    border: 1px solid #dddddd
+}
+
 .info {
     display: inline-block;
     width: 880px;
-	margin: 40px;
+    margin-left: 175px;
+    margin-top: 40px;
     padding: 20px;
-	background-color: #ffffff;
+	background-color: #ffffff;  
     border: 1px solid #dddddd;
     position: center;
-    float: center;
+}
+
+.contact {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .info h1 {
@@ -59,6 +98,7 @@ nav ul li {
 	color: #ffffff;
 	padding: 25px;
     width: auto;
+    margin-left: 175px;
 }
 
 
