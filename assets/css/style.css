@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background: lightgray;
+    background-image: url("../images/gravel.png");
     margin: 0;
 }
 
@@ -67,7 +67,7 @@ textarea {
     display: inline-block;
     width: 880px;
     margin-left: 175px;
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 20px;
 	background-color: #ffffff;  
     border: 1px solid #dddddd;
@@ -89,6 +89,25 @@ textarea {
     border-bottom: 2px solid #dddddd;
 }
 
+#name{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#email{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#message{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#submit{
+    padding: 10px 20px 10px 20px;
+}
+
 .name {
 	display: inline-block;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -107,6 +126,33 @@ img.me{
 	padding: 0 12px 12px 0;
 	width: 200px;
 	height: 200px;
+}
+
+img.portfolio-item {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.portfolio-item:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.game-name {
+    color:#ffffff;
+    background-color: #4aaaa5;
+    position: relative;
+	top: -100px;
+	text-align: center;
+	padding: 13px;
+    z-index: 1;
+    width: 300px;
+}
+
+li.game {
+    list-style-type: none;
 }
 
 footer {
