@@ -14,26 +14,67 @@ body {
     color: #4aaaa5;
 }
 
+.info {
+    display: inline-block;
+    width: 880px;
+    margin-left: 175px;
+    margin-top: 20px;
+    margin-bottom:80px;
+    padding: 50px;
+	background-color: #ffffff;  
+    border: 1px solid #dddddd;
+    position: center;
+    color: #777777;
+}
+
+.info h1 {
+	font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 12px;
+    margin-top: 0px;
+	margin-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.name {
+	display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+	font-size: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 25px;
+    width: auto;
+    margin-left: 175px;
+}
+
+/* Nav */
+
 #navigator {
     float: right;
-    padding-right: 180px;
+    padding-right: 125px;
     padding-top: 20px;
 }
 
 #navigator1 {
     float: right;
-    padding-right: 180px;
+    padding-right: 125px;
     padding-top: 20px;
 }
 
 #navigator2 {
     float: right;
-    padding-right: 180px;
+    padding-right: 125px;
     padding-top: 20px;
 }
 
 a {
-    color: #777777;
+    text-decoration: none;
+    color:#777777
+}
+
+nav.nav1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13.5px;
     text-decoration: none;
@@ -45,9 +86,9 @@ nav ul li {
     display: inline-block;
 }
 
-.top {
-    color: #777777;
-}
+/* end nav */
+
+/* start contact */
 
 input[type=text] {
     width: 100%;
@@ -63,32 +104,16 @@ textarea {
     border: 1px solid #dddddd
 }
 
-.info {
-    display: inline-block;
-    width: 880px;
-    margin-left: 175px;
-    margin-top: 20px;
-    padding: 20px;
-	background-color: #ffffff;  
-    border: 1px solid #dddddd;
-    position: center;
-    color: #777777;
-}
-
 .contact {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
-.info h1 {
-	font-size: 30px;
-    font-weight: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-bottom: 12px;
-    margin-top: 0px;
-	margin-bottom: 15px;
-    border-bottom: 2px solid #dddddd;
+/*end contact*/
+
+.top {
+    color: #dddddd;
 }
 
 #name{
@@ -110,18 +135,11 @@ textarea {
     padding: 10px 20px 10px 20px;
 }
 
-.name {
-	display: inline-block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-	font-size: 30px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	padding: 25px;
-    width: auto;
-    margin-left: 175px;
+a.game-link {
+    display: block;
+    width: 250px;
+    height: 175px;
 }
-
 
 img.me{
     float: left;
@@ -131,33 +149,8 @@ img.me{
 }
 
 img.portfolio-item {
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 150px;
-}
-
-#RPG {
-    left: 300px;
-    bottom: 228px;
-} 
-
-#Trivia {
-    bottom: 228px;
-}
-
-#Rutgers {
-    bottom: 456px;
-    left: 300px;
-}
-
-#RPS {
-    bottom: 456px;
-}
-
-
-.portfolio-item:hover {
-	transform: scale(1.1, 1.1);
+    width: 250px;
+    height: 175px;
 }
 
 .game-name {
@@ -166,45 +159,36 @@ img.portfolio-item {
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-	top: -50px;
     text-align: center;
-    padding: 5px;
-    left:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     z-index: 1;
-    width: 190px;
-}
-
-#hangman-name {
-    left:4px;
-    top:-60px;
-}
-
-#RPG-name {
-    left: 304px;
-    top: -287px;
-}
-
-#trivia-name {
-    top: -288px;
-    left: 4px
-}
-
-#rutgers-name {
-    top: -515px;
-    left: 304px;
-}
-
-#RPS-name {
-    top:-515px;
-    left: 4px;
-}
-
-li.game {
-    list-style-type: none;
+    width: 250px;
+    bottom: 45px;
+    margin:0px;
 }
 
 #portfolio {
-    height: 750px;
+    
+    padding: 25px;
+    overflow: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap:50px;
+}
+
+.grid-item {
+    position:relative;
+    width:250px;
+    height:175px;
+}
+
+.grid-item:hover {
+	opacity:0.7;
 }
 
 footer {
