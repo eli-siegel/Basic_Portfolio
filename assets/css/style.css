@@ -18,9 +18,9 @@ body {
     display: inline-block;
     width: 880px;
     margin-left: 175px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom:80px;
-    padding: 50px;
+    padding: 30px;
 	background-color: #ffffff;  
     border: 1px solid #dddddd;
     position: center;
@@ -49,23 +49,34 @@ body {
     margin-left: 175px;
 }
 
+img.me{
+    float: left;
+	padding: 0 12px 12px 0;
+	width: 200px;
+	height: 200px;
+}
+
+.top {
+    color: #dddddd;
+}
+
 /* Nav */
 
 #navigator {
     float: right;
-    padding-right: 125px;
+    padding-right: 165px;
     padding-top: 20px;
 }
 
 #navigator1 {
     float: right;
-    padding-right: 125px;
+    padding-right: 165px;
     padding-top: 20px;
 }
 
 #navigator2 {
     float: right;
-    padding-right: 125px;
+    padding-right: 165px;
     padding-top: 20px;
 }
 
@@ -110,12 +121,6 @@ textarea {
     font-size: 12px;
 }
 
-/*end contact*/
-
-.top {
-    color: #dddddd;
-}
-
 #name{
     margin-bottom: 10px;
     margin-top: 5px;
@@ -135,17 +140,14 @@ textarea {
     padding: 10px 20px 10px 20px;
 }
 
+/*end contact*/
+
+/* start portfolio */
+
 a.game-link {
     display: block;
     width: 250px;
     height: 175px;
-}
-
-img.me{
-    float: left;
-	padding: 0 12px 12px 0;
-	width: 200px;
-	height: 200px;
 }
 
 img.portfolio-item {
@@ -169,9 +171,8 @@ img.portfolio-item {
 }
 
 #portfolio {
-    
-    padding: 25px;
     overflow: auto;
+    margin-bottom: 100px;
 }
 
 .grid-container {
@@ -190,6 +191,10 @@ img.portfolio-item {
 .grid-item:hover {
 	opacity:0.7;
 }
+
+/* end portfolio */
+
+/* footer */
 
 footer {
 	position: fixed;
